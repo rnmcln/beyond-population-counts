@@ -1,13 +1,12 @@
 source_id,domain,geography,official_url,role,status
-23131-0002,diagnoses,Germany,https://genesis.destatis.de/datenbank/online/statistic/23131/table/23131-0002,primary numerator,required
-23131-0011,diagnoses,Bundeslaender,https://genesis.destatis.de/datenbank/online/statistic/23131/table/23131-0011,regional numerator,secondary
-23141-0102,procedures,Germany,https://genesis.destatis.de/datenbank/online/statistic/23141/table/23141-0102,OPS candidate table,deferred
-23141-0103,procedures,Germany,https://genesis.destatis.de/datenbank/online/statistic/23141/table/23141-0103,OPS candidate table,deferred
-23141-0110,procedures,Bundeslaender,https://genesis.destatis.de/datenbank/online/statistic/23141/table/23141-0110,OPS candidate table,deferred
-23141-0111,procedures,Bundeslaender,https://genesis.destatis.de/datenbank/online/statistic/23141/table/23141-0111,OPS candidate table,deferred
-12411-0006,population_observed,Germany,https://genesis.destatis.de/datenbank/online/statistic/12411/table/12411-0006,baseline denominator,required
-12411-0013,population_observed,Bundeslaender,https://genesis.destatis.de/datenbank/online/statistic/12411/table/12411-0013,regional denominator,secondary
-12421-0002,population_projected,Germany,https://genesis.destatis.de/datenbank/online/statistic/12421/table/12421-0002,future denominator,required
-12421-0004,population_projected,Bundeslaender,https://genesis.destatis.de/datenbank/online/statistic/12421/table/12421-0004,regional future denominator,secondary
-zensus2022-grid,population_grid,Germany,https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Zensus2022/_publikationen.html,geospatial weighting,optional_later
-bundes-klinik-atlas,hospital_sites,Germany,https://bundes-klinik-atlas.de/open-data/,provider locations,optional_later
+23131-0002,diagnoses,Germany,https://genesis.destatis.de/datenbank/online/statistic/23131/table/23131-0002,primary numerator,used
+23131-0011,diagnoses,Bundeslaender (place of treatment),https://genesis.destatis.de/datenbank/online/statistic/23131/table/23131-0011,regional numerator,used
+23131-0012,patient flows,Bundeslaender (treatment by residence),https://genesis.destatis.de/datenbank/online/statistic/23131/table/23131-0012,catchment weights; regional table check,used
+23141-0102,procedures,Germany,https://genesis.destatis.de/datenbank/online/statistic/23141/table/23141-0102,procedure numerator (post hoc),used
+12411-0006,population_observed,Germany,https://genesis.destatis.de/datenbank/online/statistic/12411/table/12411-0006,baseline denominator,used
+12411-0013,population_observed,Bundeslaender,https://genesis.destatis.de/datenbank/online/statistic/12411/table/12411-0013,regional denominator; 85-89 and 90+ sensitivity,used
+12411-0041,population_observed,Germany,https://genesis.destatis.de/datenbank/online/statistic/12411/table/12411-0041,annual average population (sensitivity),used
+12421-0002,population_projected,Germany,https://genesis.destatis.de/datenbank/online/statistic/12421/table/12421-0002,future denominator,used
+12421-0004,population_projected,Bundeslaender,https://genesis.destatis.de/datenbank/online/statistic/12421/table/12421-0004,regional future denominator,used
+zensus2022-grid,population_grid,Germany,https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Zensus2022/_publikationen.html,geospatial weighting,not used (optional extension not undertaken)
+bundes-klinik-atlas,hospital_sites,Germany,https://bundes-klinik-atlas.de/open-data/,provider locations,not used (optional extension not undertaken)

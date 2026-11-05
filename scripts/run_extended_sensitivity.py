@@ -251,6 +251,26 @@ def main() -> None:
         .pipe(numeric)
         .sum()
     )
+    # Table 23131-0011 does not state whether Laender refer to residence or treatment.
+    # Its 2024 all-diagnosis totals are compared with the row sums of the
+    # treatment-by-residence table (16 Laender of residence plus abroad and unknown).
+    reg = read_ffcsv(sorted((RAW / "23131-0011").glob("*.zip"))[-1])
+    reg = reg.loc[
+        (reg["time"].astype(str) == "2024")
+        & (reg["2_variable_attribute_label"] == "Insgesamt")
+        & (reg["3_variable_attribute_label"] == "Insgesamt")
+        & (reg["4_variable_attribute_label"] == "Insgesamt")
+    ]
+    reg_totals = numeric(reg["value"]).groupby(reg["1_variable_attribute_label"].values).sum()
+    by_treatment = flows.loc[
+        ~flows["3_variable_attribute_label"].isin(["Insgesamt", "Deutschland"])
+    ]
+    flow_totals = (
+        numeric(by_treatment["value"])
+        .groupby(by_treatment["1_variable_attribute_label"].values)
+        .sum()
+    )
+    treatment_check = float((reg_totals - flow_totals.reindex(reg_totals.index)).abs().max())
     rd = map_service_lines(
         pd.read_csv(ROOT / "data/processed/regional_diagnoses.csv", dtype={"age_group": str}),
         codebook,
@@ -336,6 +356,7 @@ def main() -> None:
         "run_at_utc": datetime.now(UTC).isoformat(),
         "land_sum_vs_national_population_2024_abs_difference": float(check),
         "berlin_discharges_share_brandenburg_residents_2024": berlin_from_bb,
+        "regional_table_vs_treatment_flows_2024_max_abs_difference": treatment_check,
         "status": "post hoc sensitivity analyses",
     }
     (ROOT / "outputs/logs/extsens_run.json").write_text(json.dumps(log, indent=2))

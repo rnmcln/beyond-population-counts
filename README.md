@@ -77,4 +77,4 @@ Code: MIT licence (`LICENSE`). The source data remain subject to the terms of th
 
 ## Citation
 
-Please cite the study and this repository; `CITATION.cff` contains the repository metadata. The archived code is available on Zenodo at https://doi.org/10.5281/zenodo.23981059 (all versions); version 1.0.0, which corresponds to the submitted manuscript, is https://doi.org/10.5281/zenodo.23981060.
+Please cite the study and this repository; `CITATION.cff` contains the repository metadata. The archived code is available on Zenodo at https://doi.org/10.5281/zenodo.23981059, which resolves to the most recent version; the record lists the DOI of each version.

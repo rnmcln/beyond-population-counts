@@ -296,5 +296,10 @@ def save_publication_figure(figure: Figure, output_stem: Path) -> list[Path]:
         options = {"bbox_inches": "tight", "facecolor": "white"}
         if path.suffix == ".png":
             options["dpi"] = 600
-        figure.savefig(path, **options)
+        elif path.suffix == ".pdf":
+            options["metadata"] = {"CreationDate": None, "ModDate": None}
+        else:
+            options["metadata"] = {"Date": None}
+        with plt.rc_context({"svg.hashsalt": "beyond-population-counts"}):
+            figure.savefig(path, **options)
     return outputs

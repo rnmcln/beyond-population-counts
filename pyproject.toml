@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "neurodemography"
-version = "1.0.0"
+version = "1.0.1"
 description = "Age-structured and population-based projections of inpatient care for neurosurgically relevant conditions in Germany"
 readme = "README.md"
 requires-python = ">=3.12"

@@ -34,7 +34,7 @@ LABELS = {
 def load_procedures() -> pd.DataFrame:
     files = sorted((ROOT / "data/raw/genesis/23141-0102").glob("*.zip"))
     if not files:
-        raise SystemExit("Missing 23141-0102 download; see docs/data_retrieval.md")
+        raise SystemExit("Missing 23141-0102 download; see data/README.md")
     raw = read_ffcsv(files[-1])
     rows = pd.DataFrame(
         {

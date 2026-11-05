@@ -44,7 +44,7 @@ def latest(table: str) -> Path:
     if not files:
         sys.exit(
             f"Missing raw download for {table}. Acquire it with scripts/acquire_genesis.py "
-            "(see docs/data_retrieval.md) before running the regional extension."
+            "(see data/README.md) before running the regional extension."
         )
     return files[-1]
 

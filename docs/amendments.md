@@ -52,3 +52,9 @@ The following analyses were added after internal review of the draft results. No
 7. **Backtest summaries by period of the target year**, with signed errors and the number of start years in which each approach was more accurate.
 
 The planned sensitivity analysis by four-digit ICD-10 subcode was not possible because the published tables contain three-digit codes only. The analysis plan specified at least five years of data before the first backtest start year; the analysis started in 2009, the fifth year of data. The trend-adjusted count model and the geographic accessibility extension remain deferred.
+
+## 5 November 2026: corrections after verification of release 1.0.0
+
+- Rates by age only (item 5 above) implement planned sensitivity analysis 3 and are not a post hoc addition; the manuscript was corrected accordingly.
+- The comparison of table 23131-0011 with the treatment-by-residence table 23131-0012, previously done outside the pipeline, is now computed in `scripts/run_extended_sensitivity.py` and written to `outputs/logs/extsens_run.json`. No result changed.
+- `metadata/ops_codebook.csv` and `metadata/source_register.csv` were updated to the tables and procedure codes actually used; neither file is read by the analysis code.

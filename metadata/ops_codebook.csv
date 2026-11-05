@@ -1,17 +1,5 @@
-ops_family,label,status,notes
-5-014,"Excision and destruction of intracranial and intracerebral tissue","candidate","Validate annual OPS hierarchy and parent/child overlap"
-5-015,"Excision and destruction of diseased tissue of spinal cord and meninges","candidate","Validate annual OPS hierarchy and parent/child overlap"
-5-022,"Incision of skull, brain and cerebral meninges","candidate","Validate annual OPS hierarchy and parent/child overlap"
-5-023,"Reoperation after cranial operation","candidate","Validate definition by OPS version"
-5-024,"Other operations on skull, brain and cerebral meninges","candidate","Validate annual OPS hierarchy and parent/child overlap"
-5-025,"Operations on cranial nerves","candidate","Validate annual OPS hierarchy and parent/child overlap"
-5-026,"Operations on spinal cord and spinal canal","candidate","Validate annual OPS hierarchy and parent/child overlap"
-5-027,"Other operations on spinal cord and spinal canal","candidate","Validate annual OPS hierarchy and parent/child overlap"
-5-028,"Operations for movement disorders","candidate","Validate definition by OPS version"
-5-035,"Operations on the spine","candidate","Validate annual OPS hierarchy and parent/child overlap"
-5-831,"Excision of diseased intervertebral-disc tissue","candidate","Do not sum with overlapping parents/children"
-5-836,"Spondylodesis","candidate","Do not sum with overlapping parents/children"
-5-837,"Vertebral body replacement and complex reconstruction","candidate","Validate definition by OPS version"
-5-838,"Other complex reconstructive spinal procedures","candidate","Validate definition by OPS version"
-5-839,"Other operations on the spine","candidate","Validate annual OPS hierarchy and parent/child overlap"
-5-83b,"Osteosynthesis procedures on the spine","candidate","Preserve lower-case suffix during normalization"
+ops_code,destatis_label,label_en,analysed
+5-013,"Inzision von Gehirn und Hirnhäuten","Incision of brain and meninges (includes 5-013.1, evacuation of subdural haematoma)",yes
+5-015,"Exzision/Destruktion v.erkranktem intrakran.Gewebe","Excision or destruction of diseased intracranial tissue",yes
+5-022,"Inzision am Liquorsystem","Incision of the CSF system (includes 5-022.0, external drainage)",yes
+5-023,"Anlegen eines Liquorshunts (Shunt-Implantation)","Implantation of a CSF shunt",yes
