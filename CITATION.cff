@@ -4,6 +4,7 @@ title: "Population ageing and inpatient care for neurosurgically relevant condit
 version: 1.0.0
 date-released: 2026-11-05
 license: MIT
+doi: 10.5281/zenodo.23981059
 repository-code: "https://github.com/rnmcln/beyond-population-counts"
 keywords:
   - neurosurgery

@@ -2,6 +2,8 @@
 
 Analysis code and documentation for the study of the same title.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23981059.svg)](https://doi.org/10.5281/zenodo.23981059)
+
 **Author:** Aaron Lawson McLean (ORCID [0000-0001-5528-6905](https://orcid.org/0000-0001-5528-6905))
 
 Department of Neurosurgery, Jena University Hospital, Friedrich Schiller University Jena, Jena, Germany; Comprehensive Cancer Centre Central Germany, Jena Campus, Jena, Germany
@@ -75,4 +77,4 @@ Code: MIT licence (`LICENSE`). The source data remain subject to the terms of th
 
 ## Citation
 
-Please cite the study and this repository; `CITATION.cff` contains the repository metadata.
+Please cite the study and this repository; `CITATION.cff` contains the repository metadata. The archived code is available on Zenodo at https://doi.org/10.5281/zenodo.23981059 (all versions); version 1.0.0, which corresponds to the submitted manuscript, is https://doi.org/10.5281/zenodo.23981060.
