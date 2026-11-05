@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "neurodemography"
+version = "1.0.0"
+description = "Age-structured and population-based projections of inpatient care for neurosurgically relevant conditions in Germany"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+dependencies = [
+  "matplotlib>=3.9",
+  "pandas>=2.2",
+  "requests>=2.32",
+]
+
+[dependency-groups]
+dev = [
+  "ipykernel>=6.29",
+  "pytest>=8.3",
+  "ruff>=0.9",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/neurodemography"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]

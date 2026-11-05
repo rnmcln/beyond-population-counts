@@ -1,0 +1,22 @@
+{
+  "source": "Statistisches Bundesamt (Destatis), GENESIS-Online",
+  "url": "https://genesis.destatis.de/genesisWS/rest/2020/data/tablefile",
+  "table": "23141-0102",
+  "parameters": {
+    "name": "23141-0102",
+    "area": "all",
+    "compress": "false",
+    "format": "ffcsv",
+    "language": "de",
+    "startyear": "2019",
+    "endyear": "2024",
+    "classifyingvariable1": "OPS4",
+    "classifyingkey1": "OPS-5-013,OPS-5-015,OPS-5-022,OPS-5-023"
+  },
+  "retrieved_at_utc": "2026-11-05T12:53:10.538794+00:00",
+  "file": "2026-11-05_23141-0102_2019-2024_uncompressed.zip",
+  "bytes": 21627,
+  "sha256": "4dc22480be4791607a16c5fb351d294fedfa0001d2d1875682b817d2caf198db",
+  "api_content": null,
+  "credentials_recorded": false
+}

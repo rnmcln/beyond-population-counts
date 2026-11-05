@@ -1,0 +1,22 @@
+{
+  "title": "Population ageing and inpatient care for neurosurgically relevant conditions in Germany to 2040: age-structured versus population-based projections: analysis code",
+  "upload_type": "software",
+  "description": "<p>Analysis code and documentation for the study \"Population ageing and inpatient care for neurosurgically relevant conditions in Germany to 2040: age-structured versus population-based projections\".</p><p>The pipeline (Python) reconstructs the analysis from published aggregate statistics of the Federal Statistical Office of Germany (GENESIS-Online): hospital discharges by principal diagnosis (ICD-10-GM C70–C72, D32, D33, G91, I60, I61, I62, S06), inpatient procedures (OPS 5-013, 5-015, 5-022, 5-023), observed populations and the 16th coordinated population projection. It compares population-based and age-structured projections of inpatient care to 2040, nationally and for the 16 federal states, decomposes projected and past change, and evaluates both approaches in rolling-origin backtests. Source data are not included; data/README.md describes how to obtain them, with checksums of the files used.</p>",
+  "creators": [
+    {
+      "name": "Lawson McLean, Aaron",
+      "affiliation": "Department of Neurosurgery, Jena University Hospital, Friedrich Schiller University Jena, Jena, Germany; Comprehensive Cancer Centre Central Germany, Jena Campus, Jena, Germany",
+      "orcid": "0000-0001-5528-6905"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "neurosurgery",
+    "health services research",
+    "population ageing",
+    "projections",
+    "hospital utilisation",
+    "decomposition",
+    "Germany"
+  ]
+}

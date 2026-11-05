@@ -1,0 +1,23 @@
+{
+  "source": "Statistisches Bundesamt (Destatis), GENESIS-Online",
+  "url": "https://genesis.destatis.de/genesisWS/rest/2020/data/tablefile",
+  "table": "12421-0004",
+  "parameters": {
+    "name": "12421-0004",
+    "area": "all",
+    "compress": "true",
+    "format": "ffcsv",
+    "language": "de",
+    "startyear": "2040",
+    "endyear": "2040",
+    "classifyingvariable1": "BEVPR2",
+    "classifyingkey1": "BEV-VARIANTE-01,BEV-VARIANTE-02,BEV-VARIANTE-03"
+  },
+  "job_selection": null,
+  "retrieved_at_utc": "2026-11-05T12:13:43.097905+00:00",
+  "file": "2026-11-05_12421-0004_2040-2040_compressed.zip",
+  "bytes": 162013,
+  "sha256": "ee780698675239832a746bc9025435205190155196aa723993a18f61af6d3748",
+  "api_content": null,
+  "credentials_recorded": false
+}

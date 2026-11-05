@@ -1,0 +1,22 @@
+{
+  "source": "Statistisches Bundesamt (Destatis), GENESIS-Online",
+  "url": "https://genesis.destatis.de/genesisWS/rest/2020/data/tablefile",
+  "table": "23131-0002",
+  "parameters": {
+    "name": "23131-0002",
+    "area": "all",
+    "compress": "false",
+    "format": "ffcsv",
+    "language": "de",
+    "startyear": "2005",
+    "endyear": "2024",
+    "classifyingvariable1": "ICD10C",
+    "classifyingkey1": "ICD10-C70,ICD10-C71,ICD10-C72,ICD10-D32,ICD10-D33,ICD10-G91,ICD10-I60,ICD10-I61,ICD10-I62,ICD10-S06"
+  },
+  "retrieved_at_utc": "2026-11-05T10:49:12.737701+00:00",
+  "file": "2026-11-05_23131-0002_2005-2024_uncompressed.zip",
+  "bytes": 154095,
+  "sha256": "99a14b3cb4d16c50f6dca17cd3a69fb499e5d02637a6d3ff9b9d373d00305bdc",
+  "api_content": null,
+  "credentials_recorded": false
+}

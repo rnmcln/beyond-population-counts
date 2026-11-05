@@ -1,0 +1,22 @@
+{
+  "source": "Statistisches Bundesamt (Destatis), GENESIS-Online",
+  "url": "https://genesis.destatis.de/genesisWS/rest/2020/data/tablefile",
+  "table": "12421-0002",
+  "parameters": {
+    "name": "12421-0002",
+    "area": "all",
+    "compress": "true",
+    "format": "ffcsv",
+    "language": "de",
+    "startyear": "2035",
+    "endyear": "2035",
+    "classifyingvariable1": "GES",
+    "classifyingkey1": "GESM,GESW"
+  },
+  "retrieved_at_utc": "2026-11-05T12:58:03.852812+00:00",
+  "file": "2026-11-05_12421-0002_2035-2035_compressed.zip",
+  "bytes": 106195,
+  "sha256": "5b2f1607359738809bfb8fe062f3e6f0388fc6458b736d9e2bd83ebeb919db55",
+  "api_content": null,
+  "credentials_recorded": false
+}

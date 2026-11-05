@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Population ageing and inpatient care for neurosurgically relevant conditions in Germany to 2040: age-structured versus population-based projections: analysis code"
+version: 1.0.0
+date-released: 2026-11-05
+license: MIT
+repository-code: "https://github.com/rnmcln/beyond-population-counts"
+keywords:
+  - neurosurgery
+  - health services research
+  - population ageing
+  - projections
+  - hospital utilisation
+  - Germany
+authors:
+  - family-names: Lawson McLean
+    given-names: Aaron
+    orcid: "https://orcid.org/0000-0001-5528-6905"
+    affiliation: "Department of Neurosurgery, Jena University Hospital, Friedrich Schiller University Jena, Jena, Germany; Comprehensive Cancer Centre Central Germany, Jena Campus, Jena, Germany"
+    email: aaron.lawsonmclean@med.uni-jena.de

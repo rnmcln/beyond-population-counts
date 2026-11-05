@@ -1,0 +1,9 @@
+service_line,label,code_start,code_end,include_primary
+cns_malignancy,"Malignant neoplasms of meninges, brain and other CNS",C70,C72,true
+meningioma,"Benign neoplasm of meninges",D32,D32,true
+benign_cns_other,"Benign neoplasm of brain and other CNS",D33,D33,true
+hydrocephalus,"Hydrocephalus",G91,G91,true
+subarachnoid_haemorrhage,"Nontraumatic subarachnoid haemorrhage",I60,I60,true
+intracerebral_haemorrhage,"Nontraumatic intracerebral haemorrhage",I61,I61,true
+other_intracranial_haemorrhage,"Other nontraumatic intracranial haemorrhage",I62,I62,true
+intracranial_injury,"Intracranial injury",S06,S06,true
