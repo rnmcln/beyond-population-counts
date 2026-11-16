@@ -1,6 +1,6 @@
 # Reproduction pipeline. Run `make data` once (requires a GENESIS token), then `make all`.
 .PHONY: setup test lint data inputs validate models backtest sensitivities posthoc audit \
-        procedures regional extended tables figures analysis all clean
+        procedures regional extended revision tables figures analysis all clean
 
 PY := uv run python
 ICD := ICD10C=ICD10-C70,ICD10-C71,ICD10-C72,ICD10-D32,ICD10-D33,ICD10-G91,ICD10-I60,ICD10-I61,ICD10-I62,ICD10-S06
@@ -64,7 +64,10 @@ regional: models
 extended: regional backtest
 	$(PY) scripts/run_extended_sensitivity.py
 
-tables: posthoc audit procedures extended
+revision: posthoc audit procedures extended
+	$(PY) scripts/run_revision_quantities.py
+
+tables: posthoc audit procedures extended revision
 	$(PY) scripts/make_tables.py
 	$(PY) scripts/make_manuscript_tables_md.py
 

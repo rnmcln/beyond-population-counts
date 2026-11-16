@@ -61,6 +61,7 @@ A full run of `make all` takes about four minutes on a single core.
 | `procedures` | `run_ops.py` | projections for OPS 5-013, 5-015, 5-022 and 5-023 |
 | `regional` | `run_regional.py`, `make_regional_outputs.py` | federal-state projections and summary |
 | `extended` | `run_extended_sensitivity.py` | all 27 population variants, finer top-coding, person-year denominators, age-only rates, catchment-weighted regional denominators, backtests by period |
+| `revision` | `run_revision_quantities.py` | quantities added in the revision of 16 November 2026: 70–79 population change, 2024 versus 2019 discharges, change to 2040, shares of the absolute difference, Poisson variation of the projection difference, same-census-basis backtest |
 | `tables`, `figures` | `make_tables.py`, `make_manuscript_tables_md.py`, `make_manuscript_figures.py` | manuscript tables and figures |
 
 ### Reproducibility notes

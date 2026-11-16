@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite it as below."
 title: "Population ageing and inpatient care for neurosurgically relevant conditions in Germany to 2040: age-structured versus population-based projections: analysis code"
-version: 1.0.1
-date-released: 2026-11-05
+version: 1.1.0
+date-released: 2026-11-16
 license: MIT
 doi: 10.5281/zenodo.23981059
 repository-code: "https://github.com/rnmcln/beyond-population-counts"
